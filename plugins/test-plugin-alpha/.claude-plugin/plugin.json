@@ -1,5 +1,6 @@
 {
   "name": "test-plugin-alpha",
   "version": "0.1.0",
-  "description": "Test Claude plugin Alpha – minimal plugin with a sample command"
+  "description": "Test Claude plugin Alpha – minimal plugin with a sample command",
+  "commands": ["./commands/hello.md"]
 }
