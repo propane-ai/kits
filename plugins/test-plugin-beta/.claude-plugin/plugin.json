@@ -1,0 +1,5 @@
+{
+  "name": "test-plugin-beta",
+  "version": "0.1.0",
+  "description": "Test Claude plugin Beta – minimal plugin with a sample skill"
+}
