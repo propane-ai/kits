@@ -1,0 +1,8 @@
+{
+  "name": "kit-product",
+  "version": "1.0.0",
+  "description": "Propane's kit for product teams: specs, roadmaps, user research synthesis, stakeholder updates, competitive briefs, and metrics review.",
+  "author": {
+    "name": "Team Propane"
+  }
+}

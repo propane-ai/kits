@@ -1,0 +1,8 @@
+{
+  "name": "kit-cx",
+  "version": "1.0.0",
+  "description": "Propane's kit for customer success and support teams: triage tickets, draft responses, escalations, customer research, and knowledge base articles.",
+  "author": {
+    "name": "Team Propane"
+  }
+}

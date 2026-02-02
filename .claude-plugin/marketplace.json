@@ -1,0 +1,146 @@
+{
+  "name": "propane-kits",
+  "owner": {
+    "name": "Propane",
+    "email": "kit@usepropane.ai",
+    "url": "https://usepropane.ai"
+  },
+  "metadata": {
+    "description": "Propane has built a kit for each team: customer success, product, marketing, product marketing, design, GTM and sales, and founders and leadership. Each kit gives that team the skills, commands, and context to do their job and scale the business.",
+    "tagline": "Kits that remove operational friction and give non-developer teams access to role-aligned AI. Part of Propane's OS for custom intel for modern product teams.",
+    "usageTracking": "Event-counting only (installs, skills used, commands used) to learn about the market. No GDPR-access data, no proprietary or stream data; no conversation or customer content is sent or stored.",
+    "version": "1.0.0",
+    "homepage": "https://kits.usepropane.ai"
+  },
+  "plugins": [
+    {
+      "name": "kit-cx",
+      "source": "./plugins/CX",
+      "description": "Propane's kit for customer success and support teams: triage tickets, draft responses, escalations, customer research, and knowledge base articles.",
+      "version": "1.0.0",
+      "category": "cx",
+      "keywords": [
+        "customer-success",
+        "cx",
+        "ticket-triage",
+        "customer-research",
+        "escalation",
+        "knowledge-management",
+        "response-drafting",
+        "triage",
+        "tickets",
+        "knowledge-base"
+      ],
+      "author": {
+        "name": "Team Propane"
+      }
+    },
+    {
+      "name": "kit-marketing",
+      "source": "./plugins/Marketing",
+      "description": "Propane's kit for marketing and product marketing teams: content creation, campaign planning, brand voice, competitive analysis, and performance reporting.",
+      "version": "1.0.0",
+      "category": "marketing",
+      "keywords": [
+        "marketing",
+        "brand-voice",
+        "campaign-planning",
+        "competitive-analysis",
+        "content-creation",
+        "performance-analytics",
+        "content",
+        "campaigns",
+        "seo"
+      ],
+      "author": {
+        "name": "Team Propane"
+      }
+    },
+    {
+      "name": "kit-product",
+      "source": "./plugins/Product",
+      "description": "Propane's kit for product teams: specs, roadmaps, user research synthesis, stakeholder updates, competitive briefs, and metrics review.",
+      "version": "1.0.0",
+      "category": "product",
+      "keywords": [
+        "product",
+        "product-management",
+        "competitive-analysis",
+        "feature-spec",
+        "metrics-tracking",
+        "roadmap-management",
+        "stakeholder-comms",
+        "user-research-synthesis",
+        "specs",
+        "roadmaps"
+      ],
+      "author": {
+        "name": "Team Propane"
+      }
+    },
+    {
+      "name": "kit-gtm",
+      "source": "./plugins/GTM",
+      "description": "Propane's kit for GTM and sales teams: prospecting, call prep, pipeline review, forecast, outreach, and competitive intelligence.",
+      "version": "1.0.0",
+      "category": "gtm",
+      "keywords": [
+        "gtm",
+        "sales",
+        "account-research",
+        "call-prep",
+        "competitive-intelligence",
+        "create-an-asset",
+        "daily-briefing",
+        "draft-outreach",
+        "prospecting",
+        "pipeline"
+      ],
+      "author": {
+        "name": "Team Propane"
+      }
+    },
+    {
+      "name": "kit-design",
+      "source": "./plugins/Design",
+      "description": "Propane's kit for design and UX teams: design briefs, design systems, UX research synthesis, accessibility, and design handoff.",
+      "version": "1.1.0",
+      "category": "design",
+      "keywords": [
+        "design",
+        "ux",
+        "accessibility",
+        "competitive-design",
+        "design-brief",
+        "design-handoff",
+        "design-priorities",
+        "ux-research-synthesis",
+        "design-systems",
+        "user-flows"
+      ],
+      "author": {
+        "name": "Team Propane"
+      }
+    },
+    {
+      "name": "kit-founder",
+      "source": "./plugins/Founder",
+      "description": "Propane's kit for founders and leadership: investor relations, market research, hiring, data and metrics, finance and runway, board prep, plans, pitch deck, and sales or investor emails.",
+      "version": "1.0.0",
+      "category": "founder",
+      "keywords": [
+        "founder",
+        "ceo",
+        "investor-relations",
+        "market-research",
+        "hiring",
+        "board-prep",
+        "pitch-deck",
+        "runway"
+      ],
+      "author": {
+        "name": "Team Propane"
+      }
+    }
+  ]
+}
