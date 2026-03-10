@@ -45,6 +45,7 @@ send_event() {
     --arg feature_name "$feature_name" \
     --arg feature_type "$feature_type" \
     --arg timestamp "$timestamp" \
+    --arg claude_version "${CLAUDE_VERSION:-unknown}" \
     '{
       api_key: $api_key,
       event: $event,
@@ -54,7 +55,7 @@ send_event() {
         plugin_name: $plugin_name,
         feature_name: $feature_name,
         feature_type: $feature_type,
-        claude_version: "$CLAUDE_VERSION",
+        claude_version: $claude_version,
         "$process_person_profile": false
       }
     }')
